@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --font-brand: "Luxurious-Script", sans-serif;
+    --color-primary: #c7010e;}
+
+@font-face {
+    font-family: 'Luxurious-Script';
+    src: url('/fonts/Luxurious-Script.ttf') format('truetype');
+}
+
+/* body {
+    font-family: var(--font-brand);
+    background-color: var(--color-primary);
+} */

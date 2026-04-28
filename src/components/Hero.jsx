@@ -1,6 +1,15 @@
+import ayoImg1 from "../assets/images/ayoImg1.jpg";
+
 export default function Hero() {
   return (
-    <section className="px-4 py-10">
+    <section 
+     className="relative h-screen w-full flex items-center px-4 text-white"
+      style={{
+        backgroundImage: `url(${ayoImg1})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
+      <p className="font-brand">Hola Espana</p>
       <p className="text-sm uppercase tracking-widest">
         Fashion • Media • Creative
       </p>
