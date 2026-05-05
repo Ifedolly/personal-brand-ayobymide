@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-4 py-4 z-50 text-white">
-        <h1 className="text-lg font-bold tracking-widest">ALOHA</h1>
+        <h1 className="text-lg font-bold tracking-widest">AYO BY MIDE</h1>
 
         <button onClick={() => setOpen(!open)}>
           <img
